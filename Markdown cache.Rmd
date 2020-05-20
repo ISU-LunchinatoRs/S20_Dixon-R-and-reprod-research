@@ -1,0 +1,22 @@
+---
+title: "Demo"
+author: "Philip Dixon"
+date: "5/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r init}
+n <- 10
+```
+
+```{r long, cache=T}
+i <- rnorm(n)
+```
+
+```{r results}
+print(length(i))
+```
